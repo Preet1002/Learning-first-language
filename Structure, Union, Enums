@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+struct employee
+{
+int eId;
+char favchar;
+float salary;
+}
+int main () {
+struct employee preet;
+preet. eId=2327cs1233;
+preet. favchar= 'e';
+preet. salary=200000000;
+cout<<"The employee Id of preet is "<<preet.eId<<endl;
+cout<<" The favourite character of preet is "<<preet.favchar<<endl;
+cout<<" The salary of preet is "<<preet.salary<<endl;
+return 0;
+}
